@@ -1,0 +1,32 @@
+.auth-form-container {
+  max-width: 10000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* căn giữa theo chiều ngang */
+
+  /* Thêm padding để tạo khoảng cách với mép trái và phải */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-group label {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Sử dụng flex để căn đều trái và phải nội dung trong form */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+/* Increase font size for input fields */
+.form-group .form-control {
+  width: 50%;
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+/* Add margin between form controls if needed */
+.form-group .form-control + .form-control {
+  margin-top: 100px; /* Adjust as needed */
+}
