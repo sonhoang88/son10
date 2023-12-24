@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nhapgocmongo/static/css/main.d142b78d.css",
-    "main.js": "/nhapgocmongo/static/js/main.a2276dac.js",
+    "main.css": "/nhapgocmongo/static/css/main.6f418cd9.css",
+    "main.js": "/nhapgocmongo/static/js/main.436f842d.js",
     "static/js/787.d4aba7ab.chunk.js": "/nhapgocmongo/static/js/787.d4aba7ab.chunk.js",
     "static/media/background.png": "/nhapgocmongo/static/media/background.8ac94c1c611527976cc4.png",
     "index.html": "/nhapgocmongo/index.html",
-    "main.d142b78d.css.map": "/nhapgocmongo/static/css/main.d142b78d.css.map",
-    "main.a2276dac.js.map": "/nhapgocmongo/static/js/main.a2276dac.js.map",
+    "main.6f418cd9.css.map": "/nhapgocmongo/static/css/main.6f418cd9.css.map",
+    "main.436f842d.js.map": "/nhapgocmongo/static/js/main.436f842d.js.map",
     "787.d4aba7ab.chunk.js.map": "/nhapgocmongo/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d142b78d.css",
-    "static/js/main.a2276dac.js"
+    "static/css/main.6f418cd9.css",
+    "static/js/main.436f842d.js"
   ]
 }
