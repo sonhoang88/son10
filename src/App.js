@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Data From MongoDB</h1>
+      <h1>Angle Data From MongoDB</h1>
       <MongoDataComponent />
       <MyComponent />
     </div>

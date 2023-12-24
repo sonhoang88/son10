@@ -6,8 +6,8 @@
   align-items: center; /* căn giữa theo chiều ngang */
 
   /* Thêm padding để tạo khoảng cách với mép trái và phải */
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .form-group label {
