@@ -34,7 +34,7 @@ const MyComponent = () => {
 
       // Gửi dữ liệu đến endpoint
       const response = await axios.post(
-        'https://ap-southeast-1.aws.data.mongodb-api.com/app/data-fmace/endpoint/post_1',
+        'https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-rxqgf/endpoint/postmanual',
         formData
       );
 
