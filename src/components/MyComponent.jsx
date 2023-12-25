@@ -20,12 +20,12 @@ const uiSchema = {
     </div>
   ),
   goc: {
-    'ui:widget': 'number',
+    'ui:widget': 'text',
     'ui:options': { classNames: 'custom-input' },
   },
 };
 
-function MyComponent() {
+const MyComponent = () => {
   const [formData, setFormData] = useState({});
 
   const handleSubmit = async ({ formData }) => {
@@ -55,9 +55,10 @@ function MyComponent() {
         formData={formData}
         onChange={({ formData }) => setFormData(formData)}
         onSubmit={handleSubmit}
-        uiSchema={uiSchema} />
+        uiSchema={uiSchema}
+      />
     </div>
   );
-}
+};
 
 export default MyComponent;
