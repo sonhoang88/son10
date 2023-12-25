@@ -9,7 +9,7 @@ const schema = {
   type: 'object',
   required: ['goc'],
   properties: {
-    goc: { type: 'string', title: 'Nhập góc:' }
+    goc: { type: 'number', title: 'Nhập góc:' }
   },
 };
 
@@ -19,13 +19,13 @@ const uiSchema = {
       Lưu trữ dữ liệu góc trên DB
     </div>
   ),
-  ten: {
-    'ui:widget': 'text',
+  goc: {
+    'ui:widget': 'number',
     'ui:options': { classNames: 'custom-input' },
   },
 };
 
-const MyComponent = () => {
+function MyComponent() {
   const [formData, setFormData] = useState({});
 
   const handleSubmit = async ({ formData }) => {
@@ -55,10 +55,9 @@ const MyComponent = () => {
         formData={formData}
         onChange={({ formData }) => setFormData(formData)}
         onSubmit={handleSubmit}
-        uiSchema={uiSchema}
-      />
+        uiSchema={uiSchema} />
     </div>
   );
-};
+}
 
 export default MyComponent;
