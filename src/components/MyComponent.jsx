@@ -7,9 +7,9 @@ import './MyComponent.css';
 const schema = {
   title: 'Lưu trữ dữ liệu góc trên DB',
   type: 'object',
-  required: ['goc'],
+  required: ['number'],
   properties: {
-    goc: { type: 'number', title: 'Nhập góc:' }
+    number: { type: 'number', title: 'Nhập góc:' }
   },
 };
 
