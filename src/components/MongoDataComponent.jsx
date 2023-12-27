@@ -33,7 +33,7 @@ const MongoDataComponent = () => {
       <h1 className="weight-data-title">
         <span>Angle: </span>
         {weightData.length > 0 ? (
-          <span className="weight-value">{weightData[0].number} độ</span>
+          <span className="weight-value">{weightData[0].goc} độ</span>
         ) : (
           <span className="no-data-message">No Angle detected.</span>
         )}
