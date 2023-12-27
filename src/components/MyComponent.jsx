@@ -9,7 +9,7 @@ const schema = {
   type: 'object',
   required: ['number'],
   properties: {
-    number: { type: 'number', title: 'Nhập góc:' }
+    number: { type:'number', title: 'Nhập góc:' }
   },
 };
 
@@ -19,7 +19,7 @@ const uiSchema = {
       Lưu trữ dữ liệu góc trên DB
     </div>
   ),
-  goc: {
+  number: {
     'ui:widget': 'text',
     'ui:options': { classNames: 'custom-input' },
   },
