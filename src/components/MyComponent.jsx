@@ -9,7 +9,7 @@ const schema = {
   type: 'object',
   required: ['number'],
   properties: {
-    number: { type:'number', title: 'Nhập góc:' }
+    number:{type:'number', title: 'Nhập góc:' }
   },
 };
 
