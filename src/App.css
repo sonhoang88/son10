@@ -1,6 +1,6 @@
 /* Apply an animated gradient background with multiple color stops */
 .app-container {
-  background: #bce863; /* Add more colors as needed */
+  background: #ec0808; /* Add more colors as needed */
   /* background-size: 1% 1%; Increase the background size for a smoother transition */
   /* animation: gradientAnimation 10s ease infinite; Adjust the animation duration and timing function as needed */
   /* Add a glowing border effect */
@@ -24,7 +24,7 @@
 .app-container h1 {
   font-size: 3em;
   margin-bottom: 20px;
-  color: #5c0404;
+  color: #000000;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: rgb(255, 255, 255);    
+  color: rgb(8, 8, 8);    
   overflow: hidden;
   
 }

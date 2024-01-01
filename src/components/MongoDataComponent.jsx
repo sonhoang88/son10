@@ -7,7 +7,7 @@ const MongoDataComponent = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-rxqgf/endpoint/getlatestdata');
+      const response = await axios.get('https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-qkzjg/endpoint/get');
       setWeightData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
